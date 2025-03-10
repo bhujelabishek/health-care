@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+   <VideoView
+       android:id="@+id/videoview"
+       android:layout_width="550sp"
+       android:layout_height="990sp"
+      android:layout_gravity="center"
+       android:scaleType="centerCrop"
+       />
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/transparent"
+       />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+   <ImageView
+    android:id="@+id/logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_launcher_foreground"
+    android:layout_marginTop="50sp"
+    />
+
+ <TextView
+     android:id="@+id/head"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:layout_marginBottom="15sp"
+     android:text="GET STARTED NOW FOR FREE"
+     android:textColor="@color/white"
+     android:textSize="25sp"
+     android:textStyle="bold"
+     android:layout_marginTop="150sp"
+     />
+
+    <TextView
+        android:id="@+id/subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Begin Now: Million Have Engaged \n Here! Join With US!"
+        android:lineSpacingExtra="15sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="250sp"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a member?"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginRight="4sp"
+        />
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signin"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+   </LinearLayout>
+</LinearLayout>
+</FrameLayout>
