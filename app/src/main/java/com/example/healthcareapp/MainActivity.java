@@ -28,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         Button btn= findViewById(R.id.create);
-        btn.setBackground(ContextCompat.getDrawable(this, R.drawable.rounded_button));
+//        btn.setBackground(ContextCompat.getDrawable(this, R.drawable.rounded_button));
         AlertDialog.Builder ad= new AlertDialog.Builder(this);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 ad.setTitle("Create Account");
                 ad.setMessage("Are you sure?");
                     ad.setPositiveButton("Yes, Proceed", new DialogInterface.OnClickListener() {
