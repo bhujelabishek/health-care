@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HealthCareApp"
         tools:targetApi="31">
         <activity
+            android:name=".DashBoard"
+            android:exported="false" />
+        <activity
             android:name=".ForgetPassword"
             android:exported="false" />
         <activity
@@ -20,12 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".CreateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Create"
-            android:exported="false" />
-        <activity
-            android:name=".CreateAcitvity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
